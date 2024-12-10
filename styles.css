@@ -1,0 +1,219 @@
+body {
+    background-color: #211f20;
+    color: white;
+    font-family: "Publica Sans Round Medium", "calibri", "sans-serif";
+    font-size: 20px;
+  }
+  
+  .container {
+    padding: 20px 100px;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 1.5rem; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-name {
+    font-size: 1.2rem;
+    margin-right: 30px;
+  }
+  
+  .highlight {
+    font-family: "Publica Sans Round Thin", "calibri", "sans-serif";
+  }
+  
+  .nav-center {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 0.875rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: #73afdf; 
+  }
+  
+  .nav-icon {
+    margin-left: auto; /* Push the icon to the far right */
+  }
+  .big-text{
+    font-size: 70px;
+    color: #73afdf; 
+    height: 100px;
+  }
+  .my-photo{
+    width: 300px;
+    border-radius: 10px;
+  }
+  .my-photo-container {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    border: 2px dashed transparent;
+    border-radius: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .my-photo {
+    width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .my-photo-container:hover {
+    background-color: #73afdf;
+    border-color: #000;
+  }
+  
+  .my-photo-container:hover .my-photo {
+    transform: translate(5px, -5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+  }
+  .flex-section {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Adds space between the items */
+    gap: 20px; /* Adds spacing between the elements */
+    padding: 20px;
+  }
+  
+  article {
+    max-width: 100%; /* Ensures the text doesn't overflow */
+  }
+  .autograph{
+    margin: 0;
+    position: absolute;
+    bottom: -20px;
+    right: 25%;
+    color: #fff;
+    font-family: 'Renatta Signature';
+    font-size: 50px;
+    transform: rotate(-10deg) skewX(-10deg);
+  }
+
+  
+  .big-text {
+    font-size: 3rem; /* Adjust text size */
+    color: #73afdf;
+    white-space: nowrap; /* Prevents the text from wrapping */
+  }
+  
+  .line {
+    flex-grow: 1; /* Makes the line take up remaining space */
+    height: 5px; /* Thickness of the line */
+    background-color: white; /* Line color */
+    width: 1000px;
+    overflow: visible;
+    margin-bottom: 19px;
+  }
+  .svg-image{
+    height: 30px;
+    color: #73afdf;
+  }
+  .less-big-text{
+    font-size: 2.5rem; /* Adjust text size */
+    color: #73afdf;
+    white-space: nowrap; /* Prevents the text from wrapping */
+  }
+  .skill-logo{
+    width: 150px;
+    height: 150px;
+    background-color: #211f20 ;
+    
+
+    padding: 20px 30px ;
+
+  }
+  .skill-td{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .skill-table {
+    width: 100%;
+    border-spacing: 10px; /* Adds space between the <td> elements */
+}
+
+.skill-tr {
+    display: flex;
+    justify-content: space-around; /* Ensures equal space between each td */
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures it takes the full viewport height */
+}
+
+.single-video {
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%; /* Ensures it is responsive */
+}
+.quiz-container {
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question {
+  margin: 50px 0px;
+}
+
+.question label {
+  font-size: 1.2rem;
+}
+
+.question input {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #73afdf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #5a9bd4;
+}
+
+.result {
+  margin-top: 30px;
+  display: none;
+}
+
+#correctAnswers {
+  list-style-type: none;
+  padding: 0;
+}
+.input-mail , textarea{
+  width: 90%;
+  padding : 12px 20px ;
+  border-radius: 10px;
+  margin: 0px 10px;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}

@@ -167,7 +167,7 @@
             <input type="radio" name="q12" value="Uranus" /> Uranus
           </div>
 
-          <button onclick="submitQuiz()">Soumettre</button>
+          <button>Soumettre</button>
           <div id="result" class="result">
             <h3>Your Score: <span id="score"></span></h3>
             <h4>Correct Answers:</h4>
@@ -210,7 +210,7 @@
             const userAnswer = form.elements[question].value;
 
             if (userAnswer === correctAnswer) {
-              score++; // Augmente le score si la réponse est correcte
+              score++;
               resultHTML += `<li>${question}: ✅ Correct (${correctAnswer})</li>`;
             } else {
               resultHTML += `<li>${question}: ❌ Incorrect (Votre réponse : <b>${
@@ -230,6 +230,7 @@
             "style",
             "background-color: #333; max-width:600px ; padding : 20px;  margin: 20px auto   ; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
           );
+
           document.body.appendChild(resultContainer);
         });
       });

@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Please fill out all fields.";
     } else {
         // Email details
-        $to = "tasnim.chiboub@ieee.org";
+        $to = "hentati.ahmed03@gmail.com";
         $subject = "New message from " . $name;
         $body = "You have received a new message from your website contact form.\n\n" .
                 "Name: " . $name . "\n" .
